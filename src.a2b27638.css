@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #706b6b;
+}
+section {
+    position: relative;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 40rem;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+button {
+    margin: 0 2rem;
+    font: inherit;
+    cursor: pointer;
+    background: #706b6b;
+    border: 1px solid #06e306;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover,
+button:active {
+    background-color: #06e306;
+    border-color: #272727;
+}
+.quote {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #706b6b;
+    box-shadow: 0 2px 8px rgb(65, 62, 62);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+
+.quote h2 {
+    font-size: 2rem;
+    color: #06e306;
+}
+
+.quote-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.loader {
+    border: 5px solid #dcdcdc;
+    border-top: 5px solid grey;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg); }
+    100% {
+        transform: rotate(360deg); } }
+.spinner {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
